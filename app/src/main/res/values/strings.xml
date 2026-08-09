@@ -1,5 +1,3 @@
 <resources>
-    <string name="app_name">MyPocketNews</string>
-    <string name="news_illustration_description">News illustration</string>
-    <string name="splash_tagline">Your news, all in one place.</string>
+    <string name="app_name">My Pocket News</string>
 </resources>
