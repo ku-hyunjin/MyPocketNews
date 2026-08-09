@@ -7,12 +7,11 @@
     android:padding="32dp">
 
     <ImageView
-        android:layout_width="96dp"
-        android:layout_height="96dp"
-        android:background="@drawable/bg_splash_icon"
-        android:contentDescription="@string/app_icon_description"
-        android:padding="18dp"
-        android:src="@drawable/ic_news" />
+        android:layout_width="240dp"
+        android:layout_height="188dp"
+        android:contentDescription="@string/news_illustration_description"
+        android:scaleType="fitCenter"
+        android:src="@drawable/undraw_news" />
 
     <TextView
         android:layout_width="wrap_content"
