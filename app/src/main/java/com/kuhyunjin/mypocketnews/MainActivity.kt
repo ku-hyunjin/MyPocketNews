@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updatePadding
+import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,5 +17,17 @@ class MainActivity : AppCompatActivity() {
             view.updatePadding(top = statusBarInsets.top)
             insets
         }
+
+        findViewById<RecyclerView>(R.id.newsRecyclerView).adapter = NewsAdapter(sampleHeadlines)
+    }
+
+    private companion object {
+        val sampleHeadlines = listOf(
+            "Global markets respond to the latest economic outlook",
+            "New technology makes personalized news easier to discover",
+            "Cities introduce greener options for everyday travel",
+            "International arts festival opens this weekend",
+            "Local teams prepare for the new season",
+        )
     }
 }
