@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">MyPocketNews</string>
     <string name="app_icon_description">MyPocketNews 앱 아이콘</string>
-    <string name="splash_tagline">나만의 뉴스를 한곳에</string>
+    <string name="splash_tagline">Your news, all in one place.</string>
 </resources>
