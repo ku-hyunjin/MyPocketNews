@@ -39,5 +39,7 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.fragment.ktx)
     implementation(libs.androidx.recyclerview)
+    implementation(libs.coil)
+    implementation(libs.coil.network.okhttp)
     implementation(libs.material)
 }
