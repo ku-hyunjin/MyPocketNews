@@ -42,8 +42,7 @@ dependencies {
     implementation(libs.coil)
     implementation(libs.coil.network.okhttp)
     implementation(libs.retrofit)
-    implementation(libs.retrofit.converter.moshi)
-    implementation(libs.moshi.kotlin)
+    implementation(libs.retrofit.converter.gson)
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.material)
 }
